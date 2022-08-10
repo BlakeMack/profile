@@ -1,0 +1,136 @@
+body {
+  background-color: #F8F4E3;
+  font-size: 20px;
+  font-family: 'Arvo', serif;
+  color: grey;
+  line-height: 30px;
+}
+
+h1 {
+  color: black;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+h2 {
+  color: grey;
+  font-size: 25px;
+  font-family: 'Arvo', serif;
+  line-height: 35px;
+  transition: 1.5s
+}
+
+h2:hover {
+  color: #E8C547;
+}
+
+
+.sub-header {
+  margin: 10px;
+  position: relative;
+  /* display: inline-block; */
+  font-size: 2em;
+  font-weight: 800;
+  color: royalblue;
+  overflow: hidden;
+  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 25%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 475ms ease;
+}
+
+.sub-header:hover {
+  background-position: 0 100%;
+}
+/* a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+} */
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 2px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.top{
+  height: 600px;
+  margin: 20px;
+}
+
+.img-round {
+  border-radius: 40%;
+  transition: 1.0s;
+  border: 3px solid grey;
+}
+
+.img-round:hover {
+  border-radius: 30%;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#icons > li > a {
+  color: #757575;
+  font-size: 50px;
+  transition: 5s;
+  /* ---------------- */
+  color: royalblue;
+  overflow: hidden;
+  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 475ms ease;
+}
+
+#icons > li > a:hover {
+  color: #757575;
+  font-size: 65px;
+  background-position: 0 100%;
+}
+
+.fab:hover {
+  color: #6B72E1;
+}
+
+.btn-rounded {
+  background-color: #757575;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin: 20px;
+  text-decoration: none;
+}
